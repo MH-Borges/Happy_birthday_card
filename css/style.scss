@@ -51,8 +51,7 @@ body{
         align-items: center;
         justify-content: center;
         .container{
-            display: flex;
-            position: relative;        
+            display: flex;     
             align-items: center;
             justify-content: center;
             max-width: 70vw;
@@ -70,7 +69,6 @@ body{
                 flex-direction: column;
                 justify-content: center;
                 .title{
-                    margin: 1.5vw 0;
                     justify-content: center;
                     font-family: 'Titillium Web', sans-serif;
                     h2{
@@ -98,8 +96,8 @@ body{
                     }
                     h4{
                         font-weight: 600;
-                        font-size: 1.8vw;
-                        margin-top: 0.5vw;
+                        font-size: 1.9vw;
+                        margin-top: 0.6vw;
 
                     }
                 }
