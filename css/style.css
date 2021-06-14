@@ -175,7 +175,7 @@ body .cartao .container .block .title {
 }
 
 body .cartao .container .block .title h2 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 3vw;
 }
 
@@ -215,7 +215,7 @@ body .cartao .container .block .bolo h4 {
   margin-top: 0.5vw;
 }
 
-body .txt {
+body .cartao .container .block .txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,10 +225,10 @@ body .txt {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 11vw 0 0;
+  padding: 0 10.8vw 0 0;
 }
 
-body .txt p {
+body .cartao .container .block .txt p {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   font-size: 1.7vw;
