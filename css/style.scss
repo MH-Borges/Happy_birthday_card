@@ -16,13 +16,14 @@
 
 body{
     display: flex;
+    flex-direction: column;
     position: relative;
     width: 100%;
     height: 100vh;
     background: linear-gradient(160.09deg, #4BBEFF 16.67%, #2749A3 117.94%);
     background-image: url(../img/Frame.jpg);
     justify-content: center;
-    overflow: hidden;
+    //overflow: hidden;
     .balao{
         display: flex;
         position: absolute;
