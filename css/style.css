@@ -149,6 +149,7 @@ body .cartao .container {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 3vw;
   padding: 1.8vw;
+  overflow: hidden;
 }
 
 body .cartao .container .block {
