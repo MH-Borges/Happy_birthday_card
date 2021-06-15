@@ -48,7 +48,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  overflow: hidden;
 }
 
 body .balao {
@@ -144,12 +143,11 @@ body .cartao .container {
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 70vw;
-  height: 70vh;
   background: #e2e2e2;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 3vw;
-  padding: 2vw;
+  padding: 1.8vw;
 }
 
 body .cartao .container .block {
@@ -167,6 +165,7 @@ body .cartao .container .block {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 2.5vw 0;
 }
 
 body .cartao .container .block .title {
@@ -174,6 +173,7 @@ body .cartao .container .block .title {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 1.3vw;
 }
 
 body .cartao .container .block .title h2 {
@@ -234,5 +234,99 @@ body .cartao .container .block .txt p {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   font-size: 1.7vw;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body .balao svg {
+    width: 10vw;
+  }
+  body .cartao .container {
+    max-width: 75vw;
+    border-radius: 4vw;
+    padding: 2vw;
+  }
+  body .cartao .container .block {
+    border-radius: 3vw;
+    padding: 2.5vw 0;
+  }
+  body .cartao .container .block .title {
+    margin: 1vw 0;
+  }
+  body .cartao .container .block .title h2 {
+    font-size: 4.8vw;
+  }
+  body .cartao .container .block .bolo {
+    padding: 2vw 0;
+    margin: 0;
+  }
+  body .cartao .container .block .bolo h2 {
+    font-size: 3.5vw;
+  }
+  body .cartao .container .block .bolo h3 {
+    font-size: 10vw;
+  }
+  body .cartao .container .block .bolo img {
+    width: 15vw;
+    margin-top: -1vw;
+  }
+  body .cartao .container .block .bolo h4 {
+    font-size: 3.5vw;
+    margin-top: 1vw;
+  }
+  body .cartao .container .block .txt {
+    padding: 2vw 6vw 0 6vw;
+    margin: 0;
+    text-align: center;
+  }
+  body .cartao .container .block .txt p {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body .balao svg {
+    width: 10vw;
+  }
+  body .cartao .container {
+    max-width: 75vw;
+    border-radius: 4vw;
+    padding: 3vw;
+  }
+  body .cartao .container .block {
+    border-radius: 3vw;
+    padding: 5vw 0;
+  }
+  body .cartao .container .block .title {
+    margin: 1vw 0;
+  }
+  body .cartao .container .block .title h2 {
+    font-size: 5vw;
+  }
+  body .cartao .container .block .bolo {
+    padding: 2vw 0;
+    margin: 0;
+  }
+  body .cartao .container .block .bolo h2 {
+    font-size: 4.5vw;
+  }
+  body .cartao .container .block .bolo h3 {
+    font-size: 15vw;
+  }
+  body .cartao .container .block .bolo img {
+    width: 25vw;
+    margin-top: -1vw;
+  }
+  body .cartao .container .block .bolo h4 {
+    font-size: 4.5vw;
+    margin-top: 2vw;
+  }
+  body .cartao .container .block .txt {
+    padding: 2vw 6vw 0 6vw;
+    margin: 0;
+    text-align: center;
+  }
+  body .cartao .container .block .txt p {
+    font-size: 3.5vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
